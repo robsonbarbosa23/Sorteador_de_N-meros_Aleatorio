@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-principal {
+    width: 583px;
+    margin-bottom: 70px;
+}
+.sortear {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #ffffff;
+}
+
+#drawn-number {
+    font-size: 50px;
+    color: #AEC346;
+}
+
+.inputs {
+    display: flex;
+    gap: 50px;
+    margin: 30px 0 20px;
+}
+
+.input-min, .input-max {
+    width: 342px;
+    height: 74px;
+    border: 1px solid #FFFFFF33;
+    border-radius: 14px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #FFFFFF;
+}
+
+.button-sortear {
+    height: 72px;
+    width: 342px;
+    border-radius: 10px;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    background: #AEC346;
+    border: none;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.button-sortear:hover, .button-reset:hover  {
+    opacity: 0.8;
+}
+
+.button-sortear:active, .button-reset:hover {
+    opacity: 0.6;
+}
